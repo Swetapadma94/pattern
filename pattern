@@ -1,0 +1,42 @@
+#Pattern
+
+for i in range(4):
+    for j in range(4):
+        print("#",end="") 
+    print()           
+    
+for i in range(4):
+    for j in range(i+1):
+        print("#",end="") 
+    print()  
+    
+for i in range(4):
+    for j in range(4-i):
+        print("*",end="")
+    print()    
+
+# for-else#
+list=[10,23,45,76,67]  
+for i in list:
+    if i%5==0:
+        print(i)
+        
+else:
+    print("not found")        
+# to print 1st number divisible by 5    
+list=[10,23,45,76,67]  
+for i in list:
+    if i%5==0:
+        print(i)
+        break
+else:
+    print("not found")  
+    
+## prime Number## using  for else
+s=4
+for i in range(2,s):
+    if s%i==0:
+        print("not prime")
+        break
+else:
+    print("prime") 
